@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `MCS Gaming`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Mocu Gaming Squad - A Diabotical Team`,
     author: `@cjgerena`,
   },
   plugins: [
