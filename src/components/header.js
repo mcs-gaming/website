@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
 				<article className="media">
 					<div className="media-content">
 						<div className="content">
-							<video width="800" height="600" playsinline autoplay muted loop>
+							<video width="800" height="600" playsInline autoPlay muted loop>
 								<source src={McsVideo} type="video/mp4" />
 								Your browser does not support the video tag.
 							</video> 
