@@ -1,20 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from '../components/layout';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Coming Soon...</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="https://discord.com/">Discord</Link> <br />
-    <Link to="https://www.diabotical.com/">Diabotical</Link> <br />
-  </Layout>
-)
+const IndexPage = () => <Layout />;
 
-export default IndexPage
+export default IndexPage;
