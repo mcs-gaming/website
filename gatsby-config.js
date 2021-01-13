@@ -11,7 +11,7 @@ module.exports = {
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
 		siteUrl: `https://www.example.com`,
-		discord: 'https://discord.com'
+		discord: 'https://discord.gg/NaSXkBz'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',

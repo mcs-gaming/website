@@ -63,7 +63,7 @@ const Navigation = () => (
           <a className="navbar-item" href="/">
             Team
           </a>
-          <a className="navbar-item" href="/">
+          <a className="navbar-item" href="https://gamersapparel.co.uk/store/mcs">
             Store
           </a>
           <a className="navbar-item" href="/">

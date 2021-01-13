@@ -21,18 +21,7 @@ const Header = ({ siteTitle }) => (
 								Mocu Gaming Squad
 							</h1>
 							<p className="subtitle has-text-white is-size-3">
-								A multi-game team{' '}
-								<a
-									className="button is-info is-inverted"
-									href="https://discord.com"
-									target="_blank"
-									rel="noopener noreferrer nofollow"
-								>
-									<span className="icon">
-										<FaDiscord size="fa-2x" />
-									</span>
-									<span>Join us on Discord</span>
-								</a>
+								A multi-game team
 							</p>
 						</div>
 					</div>
