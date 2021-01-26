@@ -1,10 +1,11 @@
-import React from "react"
-import "./style.scss"
-import mcsLogo from "../images/mcs-logo.png"
+import React from 'react';
+import './style.scss';
+import mcsLogo from '../images/mcs-logo.png';
+import { Link } from 'gatsby';
 
 const Navigation = () => (
   <nav
-    className="navbar has-shadow is-dark"
+    className="navbar has-shadow is-dark is-fixed-top"
     role="navigation"
     aria-label="main navigation"
   >
@@ -51,7 +52,7 @@ const Navigation = () => (
         {/* <!-- navbar items | right side --> */}
         <div className="navbar-end">
           <a className="navbar-item is-active" href="/">
-            {" "}
+            {' '}
             Home
           </a>
           <a className="navbar-item" href="/">
@@ -60,10 +61,13 @@ const Navigation = () => (
           <a className="navbar-item" href="/">
             About
           </a>
-          <a className="navbar-item" href="/">
+          <Link className="navbar-item" to="/team">
             Team
-          </a>
-          <a className="navbar-item" href="https://gamersapparel.co.uk/store/mcs">
+          </Link>
+          <a
+            className="navbar-item"
+            href="https://gamersapparel.co.uk/store/mcs"
+          >
             Store
           </a>
           <a className="navbar-item" href="/">
@@ -73,6 +77,6 @@ const Navigation = () => (
       </div>
     </div>
   </nav>
-)
+);
 
-export default Navigation
+export default Navigation;

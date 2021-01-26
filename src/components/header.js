@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.scss';
-import mcsLogo from '../images/mcs-logo.png';
 import Navigation from './navigation';
-import { FaDiscord } from 'react-icons/fa';
 import McsVideo from '../assets/mcs-logo-animation.mp4';
 
 const Header = ({ siteTitle }) => (
