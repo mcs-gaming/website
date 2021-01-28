@@ -54,7 +54,9 @@ const Nav = () => (
           >
             Store
           </a>
-          <a className="navbar-item">Contact</a>
+          <Link className="navbar-item" to="/contact">
+            Contact
+          </Link>
         </div>
 
         <div className="navbar-end">
