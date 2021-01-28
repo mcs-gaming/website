@@ -48,7 +48,12 @@ const Nav = () => (
             </div>
           </div>
 
-          <a className="navbar-item">Store</a>
+          <a
+            className="navbar-item"
+            href="https://gamersapparel.co.uk/store/mcs"
+          >
+            Store
+          </a>
           <a className="navbar-item">Contact</a>
         </div>
 
