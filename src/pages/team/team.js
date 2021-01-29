@@ -1,7 +1,7 @@
 import React from 'react';
 // import '../styles/debug.scss';
-import '../components/style.scss';
-import Card from '../components/card';
+import '../../components/style.scss';
+import Card from '../../components/card';
 
 const TeamPage = () => (
   <section className="section">

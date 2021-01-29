@@ -11,10 +11,9 @@ const Nav = () => (
   >
     <div className="container">
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
+        <Link to="/" className="navbar-item">
           <img src={mcsNavLogo} width="62" />
-        </a>
-
+        </Link>
         <a
           role="button"
           className="navbar-burger"
@@ -30,11 +29,15 @@ const Nav = () => (
 
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item">Home</a>
+          <Link className="navbar-item" to="/">
+            Home
+          </Link>
 
           <a className="navbar-item">News</a>
 
-          <a className="navbar-item">About</a>
+          <Link className="navbar-item" to="/about">
+            About
+          </Link>
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">Team</a>
