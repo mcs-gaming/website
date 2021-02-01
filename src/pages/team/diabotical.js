@@ -3,7 +3,7 @@ import React from 'react';
 import '../../components/style.scss';
 import Card from '../../components/card';
 
-const TeamPage = () => (
+const TeamDiabotical = () => (
   <section className="section">
     <div className="container">
       <div className="has-text-centered">
@@ -38,4 +38,4 @@ const TeamPage = () => (
     </div>
   </section>
 );
-export default TeamPage;
+export default TeamDiabotical;
