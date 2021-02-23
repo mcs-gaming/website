@@ -12,7 +12,7 @@ const Nav = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <img src={mcsNavLogo} width="62" />
+          <img src={mcsNavLogo} width="62" alt="MCS Logo" />
         </Link>
         <a
           role="button"
@@ -20,6 +20,7 @@ const Nav = () => (
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          href="/"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -33,21 +34,21 @@ const Nav = () => (
             Home
           </Link>
 
-          <a className="navbar-item">News</a>
+          <a className="navbar-item" href="/">News</a>
 
           <Link className="navbar-item" to="/about">
             About
           </Link>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Team</a>
+            <a className="navbar-link" href="/">Team</a>
 
             <div className="navbar-dropdown">
-              <a className="navbar-item">Apex Legends</a>
-              <a className="navbar-item">Diabotical</a>
-              <a className="navbar-item">World of Warcraft</a>
+              <a className="navbar-item" href="/">Apex Legends</a>
+              <Link className="navbar-item" to="/team/diabotical">Diabotical</Link>
+              <a className="navbar-item" href="/">World of Warcraft</a>
               <hr className="navbar-divider" />
-              <a className="navbar-item">Tryout for our squad</a>
+              <a className="navbar-item" href="/">Tryout for our squad</a>
             </div>
           </div>
 
@@ -65,10 +66,10 @@ const Nav = () => (
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-light">
+              <a className="button is-light" href="/">
                 <strong>Scrim us</strong>
               </a>
-              <a className="button is-dark">Log in</a>
+              <a className="button is-dark" href="/">Log in</a>
             </div>
           </div>
         </div>

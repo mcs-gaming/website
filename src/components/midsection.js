@@ -4,9 +4,6 @@ import "./style.scss"
 import Emoji from "./emoji"
 
 const Midsection = () => (
-  <div>
-    <section className="section">
-      <div className="container">
         <div className="columns is-multiline">
           <div className="column is-one-third">
             <article className="media">
@@ -126,9 +123,6 @@ const Midsection = () => (
             </article>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
 )
 
 export default Midsection

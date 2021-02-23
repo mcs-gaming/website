@@ -4,10 +4,9 @@ import { FaInstagramSquare } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
 import Layout from '../components/layout';
 
-const ContactPage = () => (
+const ContactPage = () => { 
+  return (
   <Layout>
-    <section className="section">
-      <div className="container py-4">
         <h2 className="title has-text-centered mb-6">
           Contact the Mocu Gaming Squad
         </h2>
@@ -25,7 +24,7 @@ const ContactPage = () => (
                 <div className="media-left">
                   <figure className="image is-24x24">
                     <span className="icon">
-                      <a href="#">
+                      <a href="/">
                         <FaDiscord size="fa-2x" />
                       </a>
                     </span>
@@ -41,7 +40,7 @@ const ContactPage = () => (
                 <div className="media-left">
                   <figure className="image is-24x24">
                     <span className="icon">
-                      <a href="#">
+                      <a href="/">
                         <FaInstagramSquare size="fa-2x" />
                       </a>
                     </span>
@@ -57,7 +56,7 @@ const ContactPage = () => (
                 <div className="media-left">
                   <figure className="image is-24x24">
                     <span className="icon">
-                      <a href="#">
+                      <a href="/">
                         <FaTwitterSquare size="fa-2x" />
                       </a>
                     </span>
@@ -94,7 +93,7 @@ const ContactPage = () => (
               <div className="field">
                 <div className="control">
                   <button
-                    className="button is-primary is-fullwidth"
+                    className="button is-dark is-fullwidth"
                     type="submit"
                   >
                     Submit
@@ -104,8 +103,6 @@ const ContactPage = () => (
             </form>
           </div>
         </div>
-      </div>
-    </section>
   </Layout>
-);
+)};
 export default ContactPage;

@@ -1,29 +1,28 @@
 import React from 'react';
 import mcsLogo from '../images/mcs-logo.png';
-import { FaDiscord } from 'react-icons/fa';
 
 const Card = props => {
+  console.log(props)
   return (
     <div className="box">
       <article className="media">
         <div className="media-left">
           <figure className="image is-128x128">
-            <img src={mcsLogo} />
+            <img src={mcsLogo} alt="MCS Logo"/>
           </figure>
         </div>
         <div className="media-content">
           <div className="content">
-            <p>
-              <strong>Game Alias</strong>
+            <p className="mb-0">
+              <strong>{props.gamerAlias}</strong>
             </p>
-            <p>
-              <small>Real Name?</small>
+            <p className="mb-0">
+              <small>{props.gamerRealName}</small>
             </p>
-            <p className="icon">
-              <a href="#">
-                <FaDiscord size="fa-2x" color="#7289da" />
-              </a>
-            </p>
+            <p className="mb-0">{props.gamerLocation}</p>
+            <p className="mb-0">{props.gamerAge}</p>
+            <p className="mb-0">{props.gamerQuote}</p>
+            <p className="mb-0">{props.gamerSnack}</p>
           </div>
         </div>
       </article>
